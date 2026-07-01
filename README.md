@@ -41,3 +41,13 @@ Today, I mastered task repetition and loop structures in Bash scripting to autom
 - **`for i in {1..5}`**: Defines a range-based loop that iterates exactly 5 times.
 - **`do` & `done`**: The code blocks that enclose the operations to be executed on each loop iteration.
 - **`sleep 1`**: Introduces a controlled delay inside execution streams, useful for rate-limiting scripts or managing cron jobs.
+
+
+# Day 8: Reusability with Bash Functions
+
+Today, I advanced my scripting skills by introducing functions to write modular, clean, and production-grade shell scripts.
+
+### Key Learnings:
+- **Functions**: Named blocks of code designed to perform a specific task. They prevent code duplication (DRY principle: Don't Repeat Yourself).
+- **Encapsulation**: Grouping monitoring utilities like `uptime` and `whoami` inside a single executable functional unit.
+- **Calling Structure**: Invoking a function simply by writing its name inside the execution path of the script.
