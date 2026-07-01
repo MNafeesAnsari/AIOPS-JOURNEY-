@@ -32,3 +32,12 @@ Today, I introduced logical decision-making components into my Bash scripts usin
 - **`if [ condition ]`**: Syntax to evaluate logical assumptions. Spaces inside brackets are mandatory in Bash.
 - **`then` & `else`**: Branches that dictate separate outputs based on whether the condition returns True or False.
 - **`fi`**: The mandatory concluding tag used to terminate a conditional block in Linux scripting.
+
+# Day 7: Automation with For Loops
+
+Today, I mastered task repetition and loop structures in Bash scripting to automate bulk operations.
+
+### Key Learnings:
+- **`for i in {1..5}`**: Defines a range-based loop that iterates exactly 5 times.
+- **`do` & `done`**: The code blocks that enclose the operations to be executed on each loop iteration.
+- **`sleep 1`**: Introduces a controlled delay inside execution streams, useful for rate-limiting scripts or managing cron jobs.
