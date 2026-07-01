@@ -23,3 +23,12 @@ Today, I moved from static scripting to dynamic scripting by implementing variab
 - **Variables**: Containers used to store temporary data (e.g., `USER_NAME`).
 - **`read` Command**: Halts script execution to capture interactive inputs from the user terminal.
 - **Interpolation (`$`)**: Utilizing the dollar sign to call and print the stored value of a variable inside strings.
+
+# Day 6: Decision Making with If/Else Statements
+
+Today, I introduced logical decision-making components into my Bash scripts using conditional If/Else control structures.
+
+### Key Learnings:
+- **`if [ condition ]`**: Syntax to evaluate logical assumptions. Spaces inside brackets are mandatory in Bash.
+- **`then` & `else`**: Branches that dictate separate outputs based on whether the condition returns True or False.
+- **`fi`**: The mandatory concluding tag used to terminate a conditional block in Linux scripting.
